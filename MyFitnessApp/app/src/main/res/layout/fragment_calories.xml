@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/backgroundColor">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calories Tracker"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/textColorPrimary"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/total_calories_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Calories: 0"
+        android:textSize="18sp"
+        android:textColor="@color/textColorPrimary"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <ProgressBar
+        android:id="@+id/calorie_progress_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:max="2000"
+        android:progress="0"
+        app:layout_constraintTop_toBottomOf="@id/total_calories_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:progressTint="@color/progressBarColor" />
+
+    <Button
+        android:id="@+id/add_food_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Food"
+        app:layout_constraintTop_toBottomOf="@id/calorie_progress_bar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/buttonColor"
+        android:textColor="@color/buttonTextColor" />
+
+    <TextView
+        android:id="@+id/foods_consumed_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Foods Consumed"
+        android:textSize="18sp"
+        android:textColor="@color/textColorPrimary"
+        app:layout_constraintTop_toBottomOf="@id/add_food_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/consumed_food_recycler_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/foods_consumed_title"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"
+        android:background="@color/surfaceColor" />
+</androidx.constraintlayout.widget.ConstraintLayout>

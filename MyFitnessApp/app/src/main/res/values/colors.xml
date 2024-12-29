@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primaryColor">#D32F2F</color> <!-- Bright Red -->
+    <color name="primaryDarkColor">#B71C1C</color> <!-- Dark Red -->
+    <color name="primaryLightColor">#FFCDD2</color> <!-- Light Red -->
+
+    <!-- Secondary Colors -->
+    <color name="secondaryColor">#212121</color> <!-- Dark Gray for secondary highlights -->
+    <color name="secondaryLightColor">#616161</color> <!-- Lighter Gray for secondary elements -->
+    <color name="ic_launcher_background">#FFFFFF</color>
+    <!-- Accent Color -->
+    <color name="accentColor">#FFFFFF</color> <!-- White for highlights -->
+
+    <!-- Background and Surface Colors -->
+    <color name="backgroundColor">#121212</color> <!-- Very Dark Gray/Black background -->
+    <color name="surfaceColor">#1E1E1E</color> <!-- Darker Gray for surface elements like cards -->
+
+    <!-- Text Colors -->
+    <color name="textColorPrimary">#F5F5F5</color> <!-- Almost white primary text for readability -->
+    <color name="textColorSecondary">#CFCFCF</color> <!-- Light Gray secondary text -->
+    <color name="textColorHint">#A5A5A5</color> <!-- Medium Gray for hints -->
+
+    <!-- Button Colors -->
+    <color name="buttonColor">#D32F2F</color> <!-- Bright Red for buttons -->
+    <color name="buttonTextColor">#FFFFFF</color> <!-- White text on buttons -->
+
+    <!-- Progress and Indicator Colors -->
+    <color name="progressBarColor">#D32F2F</color> <!-- Red for progress indicators -->
+    <color name="completedProgressColor">#B71C1C</color> <!-- Dark Red for completed progress -->
+
+    <!-- Error and Warning Colors -->
+    <color name="errorColor">#FF5722</color> <!-- Orange-Red for error messages -->
+    <color name="warningColor">#FFC107</color> <!-- Amber for warnings -->
+</resources>
