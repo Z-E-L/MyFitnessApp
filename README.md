@@ -1,8 +1,10 @@
 Fitness App: Calorie Tracker
 
-A user-friendly Android app designed to help users monitor and manage their daily calorie intake. This project was developed as part of a team effort using Android Studio and incorporates key Android development concepts like ViewModel, SharedPreferences, and efficient state management.
+A user-friendly Android app designed to help users monitor and manage their daily calorie intake. This 
+project was developed as part of a team effort using Android Studio and incorporates key Android 
+development concepts like ViewModel, SharedPreferences, and efficient state management.
 
-Features
+Features:
 
 	•	Predefined Food Database: Select from a list of common foods with predefined calorie values.
 	•	Add and Remove Foods: Easily track calorie intake by adding or removing consumed items.
@@ -33,8 +35,8 @@ How It Works
 Setup and Installation
 
 	1.  Clone the repository:
-  2.  Open the project in Android Studio.
-	3.	Sync the project with Gradle files.
-	4.	Build and run the app on an emulator or physical device.
+  	2.  Open the project in Android Studio.
+	3.  Sync the project with Gradle files.
+	4.  Build and run the app on an emulator or physical device.
 
 
