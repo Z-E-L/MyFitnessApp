@@ -12,7 +12,7 @@ Features:
 	•	Visual Progress Bar: Displays progress toward a daily calorie goal.
 	•	User-Friendly Design: Intuitive UI for smooth navigation and interaction.
 
-Technologies Used
+Technologies Used:
 
 	•Programming Language: Java
 	•Development Environment: Android Studio
@@ -24,7 +24,7 @@ Technologies Used
 	•ProgressBar for visualizing calorie goals.
 
 
-How It Works
+How It Works:
 
 	1.Predefined Foods: A preloaded list of common food items with their calorie values.
 	2.Add Calories: Select a food item from the list to add its calories to the daily total.
@@ -32,7 +32,7 @@ How It Works
 	4.Daily Reset: The app automatically resets the calorie count at midnight or on app restart.
 
 
-Setup and Installation
+Setup and Installation:
 
 	1.  Clone the repository:
   	2.  Open the project in Android Studio.
