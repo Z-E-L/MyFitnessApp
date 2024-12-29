@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App name -->
+    <string name="app_name">MyFitnessApp</string>
+
+    <!-- Titles for Fragments -->
+    <string name="title_calories">Calories</string>
+    <string name="title_water">Water</string>
+    <string name="title_exercises">Exercises</string>
+
+    <!-- Search hints -->
+    <string name="search_hint_food">Search for food...</string>
+    <string name="search_hint_exercise">Search exercises...</string>
+
+    <!-- Buttons -->
+    <string name="add_exercise_button_text">Add Exercise</string>
+    <string name="add_food_button_text">Add Food</string>
+    <string name="add_water_button_text">Add Water</string>
+    <string name="cancel_button_text">Cancel</string>
+    <string name="add_button_text">Add</string>
+
+    <!-- Dialog Titles -->
+    <string name="dialog_add_exercise_title">Add Exercise</string>
+    <string name="dialog_add_food_title">Add Food</string>
+    <string name="dialog_add_water_title">Add Water</string>
+
+    <!-- Exercise Fields -->
+    <string name="exercise_name_hint">Exercise Name</string>
+    <string name="exercise_duration_hint">Duration (minutes)</string>
+    <string name="total_calories_burned_text">Total Calories Burned: %1$d</string>
+
+    <!-- Food Fields -->
+    <string name="food_name_hint">Food Name</string>
+    <string name="food_calories_hint">Calories (per serving)</string>
+    <string name="total_calories_consumed_text">Total Calories Consumed: %1$d</string>
+
+    <!-- Water Fields -->
+    <string name="daily_water_goal_text">Daily Water Goal: %1$d glasses</string>
+    <string name="current_water_intake_text">Water Consumed: %1$d glasses</string>
+
+</resources>

@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyFitnessApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <!-- Set the status bar color -->
+        <item name="android:statusBarColor">#D32F2F</item>
+
+        <!-- Optional: Light status bar icons (set to false for dark text/icons) -->
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.MyFitnessApp" parent="Base.Theme.MyFitnessApp" />
+</resources>
